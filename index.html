@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="./javascript/trivia.js"></script>
+	<link rel="stylesheet" href="./css/style.css" text>
+
+</head>
+
+
+<body>
+	
+<h1>Pokemon Trivia Game!</h1>
+
+<div class="container">
+	<button id="start-game-button">START GAME</button>
+
+	<div class="topBox">
+		<h2>Timer: <span class="timer"></span></h2>
+	</div>
+
+	<form id="quizForm" onsubmit="return submitAnswers()">
+		<h3> Question 1: What was the first Pokémon Ash captured?</h3>
+		<input type="radio" name="q1" value="a" id="q1a">A: Pidgeotto <br>
+		<input type="radio" name="q1" value="b" id="q1b">B: Squirtle <br>
+		<input type="radio" name="q1" value="c" id="q1c">C: Caterpie <br>
+		<input type="radio" name="q1" value="d" id="q1d">D: Pikachu <br>
+
+		<h3> Question 2: What is the name of the tenth pokemon movie?</h3>
+		<input type="radio" name="q2" value="a" id="q2a">A: The Raise of Darkrai <br>
+		<input type="radio" name="q2" value="b" id="q2b">B: MewTwo Returns <br>
+		<input type="radio" name="q2" value="c" id="q2c">C: Destiny Deoxys <br>
+		<input type="radio" name="q2" value="d" id="q2d">D: Pikachu Full Power <br>
+
+		<h3> Question 3: What set of starters is present in Generation One?</h3>
+		<input type="radio" name="q3" value="a" id="q3a">A: Charizard, Venusaur, n' Blastoise <br>
+		<input type="radio" name="q3" value="b" id="q3b">B: Charmander, Bulbasaur, n' Squirtle <br>
+		<input type="radio" name="q3" value="c" id="q3c">C: Charmander, Turtwig, n' Piplup <br>
+		<input type="radio" name="q3" value="d" id="q3d">D: Tacos, Sodas, n' More Tacos <br>
+
+		<h3> Question 4:Pikachu and Ash become instant friends?</h3>
+		<input type="radio" name="q4" value="a" id="q4a">A: True <br>
+		<input type="radio" name="q4" value="b" id="q4b">B: False <br>
+		
+		<h3> Question 5: What are the three (main) kinds of Pokémon?</h3>
+		<input type="radio" name="q5" value="a" id="q5a">A: Fire, Water, and Electric <br>
+		<input type="radio" name="q5" value="b" id="q5b">B: Earth, Wind, and Fire <br>
+		<input type="radio" name="q5" value="c" id="q5c">C: Body, Soul, and Mind <br>
+		<input type="radio" name="q5" value="d" id="q5d">D: Water, water water <br>
+		
+		<h3> Question 6: What are the names of the villians in the show?</h3>
+		<input type="radio" name="q6" value="a" id="q6a">A: Peter, Paul and Ratattat  <br>
+		<input type="radio" name="q6" value="b" id="q6b">B: Steve, Joe and Pikachu  <br>
+		<input type="radio" name="q6" value="c" id="q6c">C: Jessy, James and Meowth <br>
+		<input type="radio" name="q6" value="d" id="q6d">D: Arnold Schwarzenegger <br>
+		
+		<h3> Question 7: Ash wants to become a Pokémon Master.</h3>
+		<input type="radio" name="q7" value="a" id="q7a">A: True <br>
+		<input type="radio" name="q7" value="b" id="q7b">B: False <br>
+		
+		<h3> Question 8: The cartoon originates from...</h3>
+		<input type="radio" name="q8" value="a" id="q8a">A: USA <br>
+		<input type="radio" name="q8" value="b" id="q8b">B: Japan  <br>
+		<input type="radio" name="q8" value="c" id="q8c">C: Europe <br>
+		<br><br>
+
+		<input id="submit" type="submit" value="Submit Answers"> 
+
+		<p id="nada"></p>
+		
+	</form>
+
+
+
+
+</div>
+
+
+
+
+</body>
+</html>
